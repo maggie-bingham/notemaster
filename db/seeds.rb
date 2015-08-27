@@ -16,9 +16,9 @@ note = Note.create(title: "Second Post", body: "This is my second post.")
   note.tags << Tag.new(name: "more")
 
 note = Note.create(title: "Third Post", body: "This is my third post.")
-note.tags << Tag.new(name: "third")
-note.tags << Tag.new(name: "api")
-note.tags << Tag.new(name: "gosh")
+  note.tags << Tag.new(name: "third")
+  note.tags << Tag.new(name: "api")
+  note.tags << Tag.new(name: "gosh")
 
 note = Note.create(title: "Fourth Post", body: "This is my fourth post.")
   note.tags << Tag.new(name: "awesome")

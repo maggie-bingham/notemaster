@@ -12,7 +12,9 @@ gem 'pg'
 
 gem 'active_model_serializers', '~> 0.8.3'
 
-
+group :development, :test do
+  gem 'sqlite3'
+end
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
